@@ -174,20 +174,7 @@ section {
   gap: 0.8rem;
 }
 
-.brand-logo {
-  width: 48px;
-  height: 48px;
-  background: var(--azul-oscuro);
-  color: var(--dorado-claro);
-  font-family: var(--serif);
-  font-size: 1.4rem;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 6px;
-  flex-shrink: 0;
-}
+.brand-logo {  width: 48px;  height: 48px;  object-fit: cover;  border-radius: 6px;  flex-shrink: 0;}
 
 .brand-text {
   display: flex;
